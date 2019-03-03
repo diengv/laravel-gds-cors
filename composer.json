@@ -1,0 +1,25 @@
+{
+    "name": "diengv/laravel-gds-cors",
+    "require": {
+        "php": "^7.1.3",
+        "laravel/framework": "^5.7"
+    },
+    "authors": [
+        {
+            "name": "diengv",
+            "email": "diengv.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Diengv\\LaravelCors\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Diengv\\GdsCors\\CorsServiceProvider"
+            ]
+        }
+    }
+}
